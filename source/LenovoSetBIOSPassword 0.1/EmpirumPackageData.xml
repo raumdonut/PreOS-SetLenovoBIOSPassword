@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EmpirumPackage UUID="eac0d90a-aa3a-46b9-a27e-266650aeb041" Name="LenovoSetBIOSPassword 0.1" Type="OSPackage" Version="1.0">
+  <VersionInformation Version="0.1" Revision="0" />
+  <TargetPath />
+  <Description>Set the BIOS for Lenovo Models which support System Deployment Boot Mode SDB
+</Description>
+  <DatabaseSettings></DatabaseSettings>
+  <ObjectModelSerialisation>
+    <ObjectModel Name="Matrix42.Empirum.PLF.Data.CoreDataAccess.Model">
+      <Software xmlns:i="http://www.w3.org/2001/XMLSchema-instance" z:Id="i1" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" xmlns="http://schemas.datacontract.org/2004/07/Matrix42.Empirum.PLF.Data.CoreDataAccess.Model">
+        <CatalogueID i:nil="true" />
+        <GenerallyReleased>0001-01-01T00:00:00</GenerallyReleased>
+        <Icon i:nil="true" />
+        <Id>eac0d90a-aa3a-46b9-a27e-266650aeb041</Id>
+        <Name>LenovoSetBIOSPassword 0.1</Name>
+        <PackageAssignments />
+        <ProductKey i:nil="true" />
+        <Revision>0</Revision>
+        <SoftwareDependencies />
+        <SoftwareSequences />
+        <SoftwareVarDefinitions>
+          <SoftwareVarDefinition z:Id="i2">
+            <AllowNull>0</AllowNull>
+            <ComputerVarDefinition z:Id="i3">
+              <AllowNull>1</AllowNull>
+              <Children>
+                <ComputerVarDefinition z:Id="i4">
+                  <AllowNull>1</AllowNull>
+                  <Children />
+                  <Collection>0</Collection>
+                  <ComboType>12</ComboType>
+                  <DefaultValue i:nil="true" />
+                  <Description>Add the BIOS Password you want to set. If you change it, we have to change the config files.</Description>
+                  <Id>0</Id>
+                  <LastUpdate>2024-06-12T21:26:52.2128769+02:00</LastUpdate>
+                  <LowerValue i:nil="true" />
+                  <Name>LenovoBIOSPW</Name>
+                  <Objecttype i:nil="true" />
+                  <Parent i:nil="true" />
+                  <ParentId i:nil="true" />
+                  <PredefinedVariableValues />
+                  <Sequence i:nil="true" />
+                  <ShowFlag>0</ShowFlag>
+                  <SoftwareVarDefinitions />
+                  <Type>0</Type>
+                  <UpperValue i:nil="true" />
+                </ComputerVarDefinition>
+              </Children>
+              <Collection>0</Collection>
+              <ComboType>9</ComboType>
+              <DefaultValue i:nil="true" />
+              <Description>This is the container for the os package variables.</Description>
+              <Id>0</Id>
+              <LastUpdate>2024-06-12T21:20:58.1989464+02:00</LastUpdate>
+              <LowerValue i:nil="true" />
+              <Name>LenovoSetBIOSPassword</Name>
+              <Objecttype>39</Objecttype>
+              <Parent i:nil="true" />
+              <ParentId i:nil="true" />
+              <PredefinedVariableValues />
+              <Sequence i:nil="true" />
+              <ShowFlag>0</ShowFlag>
+              <SoftwareVarDefinitions />
+              <Type>0</Type>
+              <UpperValue i:nil="true" />
+            </ComputerVarDefinition>
+            <Package i:nil="true" />
+            <SoftwareId>00000000-0000-0000-0000-000000000000</SoftwareId>
+            <VariableId>0</VariableId>
+          </SoftwareVarDefinition>
+        </SoftwareVarDefinitions>
+        <Vendor>raumdonut</Vendor>
+        <Version>0.1</Version>
+        <VersionFile i:nil="true" />
+        <AllowUnInstallation>false</AllowUnInstallation>
+        <Author i:nil="true" />
+        <Build i:nil="true" />
+        <CallAsynchronous>false</CallAsynchronous>
+        <Category>0</Category>
+        <CheckFile i:nil="true" />
+        <CheckReg i:nil="true" />
+        <CreationDate i:nil="true" />
+        <Description>Set the BIOS for Lenovo Models which support System Deployment Boot Mode SDB
+</Description>
+        <Directory>%Packages%\raumdonut\OsPackages\LenovoSetBIOSPassword\0.1</Directory>
+        <Discontinue i:nil="true" />
+        <DiskFreeApplication>0</DiskFreeApplication>
+        <DiskFreeSystem>0</DiskFreeSystem>
+        <Distribution>false</Distribution>
+        <DocuFileName i:nil="true" />
+        <Duration>0</Duration>
+        <ExternalSetup>false</ExternalSetup>
+        <InfoCmdLine i:nil="true" />
+        <InfoDep i:nil="true" />
+        <InfoFile i:nil="true" />
+        <InstallContext>0</InstallContext>
+        <InstallReady>0</InstallReady>
+        <LastChange i:nil="true" />
+        <LicenceCount>0</LicenceCount>
+        <MachineKeyName i:nil="true" />
+        <Method i:nil="true" />
+        <MinBandwidth i:nil="true" />
+        <PackageName>raumdonut\OsPackages\LenovoSetBIOSPassword\0.1</PackageName>
+        <ParentID i:nil="true" />
+        <Path i:nil="true" />
+        <ProcessorSpeed>0</ProcessorSpeed>
+        <RAM>0</RAM>
+        <Script i:nil="true" />
+        <Sequence i:nil="true" />
+        <SoftwareAUTFiles />
+        <SoftwareConditions />
+        <SoftwareDepotRegister z:Id="i5">
+          <Check i:nil="true" />
+          <CheckFile i:nil="true" />
+          <Description i:nil="true" />
+          <Distribution i:nil="true" />
+          <GlobalGroup i:nil="true" />
+          <IDPK>00000000-0000-0000-0000-000000000000</IDPK>
+          <Icon i:nil="true" />
+          <LocalGroup i:nil="true" />
+          <LocalUser i:nil="true" />
+          <Name>Matrix42 PreOS Packages</Name>
+          <OSSystems i:nil="true" />
+          <SEQUENCE i:nil="true" />
+          <Softwares />
+          <SupportedOSCapabilities>
+            <OSCapability z:Id="i6">
+              <ID>0</ID>
+              <ItemOSCapabilitiesMappings />
+              <Name>x86</Name>
+              <OSDatas />
+              <UseInSyncJobs>0</UseInSyncJobs>
+            </OSCapability>
+            <OSCapability z:Id="i7">
+              <ID>0</ID>
+              <ItemOSCapabilitiesMappings />
+              <Name>x64</Name>
+              <OSDatas />
+              <UseInSyncJobs>1</UseInSyncJobs>
+            </OSCapability>
+          </SupportedOSCapabilities>
+          <SupportedOSs>
+            <OSData z:Id="i8">
+              <BaseName>Windows PE</BaseName>
+              <BitFlag>8</BitFlag>
+              <ID>0</ID>
+              <InternalName>WinPE 10</InternalName>
+              <ItemOSDataMappings />
+              <Name>WinPE 10</Name>
+              <OSCapabilities />
+              <SequenceID>250</SequenceID>
+              <TextID>WinPE 10</TextID>
+            </OSData>
+          </SupportedOSs>
+          <TEXT>Matrix42 PreOS Packages</TEXT>
+          <TabIcon i:nil="true" />
+        </SoftwareDepotRegister>
+        <SoftwareDomainGroups />
+        <SubType>WinPE</SubType>
+        <SupportedOSCapabilities>
+          <OSCapability z:Ref="i6" />
+          <OSCapability z:Ref="i7" />
+        </SupportedOSCapabilities>
+        <SupportedOSs>
+          <OSData z:Ref="i8" />
+        </SupportedOSs>
+        <Tested i:nil="true" />
+        <TokenId i:nil="true" />
+        <TokenTtl>0</TokenTtl>
+      </Software>
+      <Software />
+      <Software />
+      <Software />
+    </ObjectModel>
+  </ObjectModelSerialisation>
+</EmpirumPackage>
