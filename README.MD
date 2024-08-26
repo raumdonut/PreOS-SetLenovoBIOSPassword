@@ -15,10 +15,10 @@ We use the System Deployment Boot Mode introduced on the ThinkPad T490 (Comet La
 > This only works on Thinkpads with no Supervisorpassword set!
 
 ## Features
-- checks if the device is from lenovo. If not it exits.
-- checks via an array if the model is not supported:  
+- Checks if the device is from lenovo. If not it exits.
+- Checks via an array if the model is not supported:  
   "$notSupportedList" which is currently populated with t480s/t490s modelnames. Add more unsupported models in your environment
-- sets the BIOS password. The BIOS password is set via the package variable “LenovoBIOSPW”.
+- Sets the BIOS password. The BIOS password is set via the package variable “LenovoBIOSPW”.
 
 ## Download and Usage
 1. Clone the repository.
