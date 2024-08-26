@@ -31,6 +31,9 @@ jobs:
         env:
           VALIDATE_ALL_CODEBASE: true
           IGNORE_GITIGNORED_FILES: true
-
+          FIX_YAML_PRETTIER: true
+          FIX_MARKDOWN: true
+          FIX_MARKDOWN_PRETTIER: true
+          VALIDATE_POWERSHELL: true
           # To report GitHub Actions status checks
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
