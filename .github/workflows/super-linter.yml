@@ -32,12 +32,10 @@ jobs:
           VALIDATE_ALL_CODEBASE: true
           IGNORE_GITIGNORED_FILES: true
           FIX_YAML_PRETTIER: true
-          FIX_MARKDOWN: true
           FIX_MARKDOWN_PRETTIER: true
           VALIDATE_POWERSHELL: true
           VALIDATE_YAML: true
           VALIDATE_YAML_PRETTIER: true
-          VALIDATE_MARKDOWN: true
           VALIDATE_MARKDOWN_PRETTIER: true
           # To report GitHub Actions status checks
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
