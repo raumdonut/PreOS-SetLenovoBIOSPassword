@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<EmpirumPackage UUID="eac0d90a-aa3a-46b9-a27e-266650aeb041" Name="LenovoSetBIOSPassword 0.1" Type="OSPackage" Version="1.0">
+<EmpirumPackage UUID="eac0d90a-aa3a-46b9-a27e-266650aeb041" Name="SetLenovoBIOSPassword 0.1" Type="OSPackage" Version="1.0">
   <VersionInformation Version="0.1" Revision="0" />
   <TargetPath />
-  <Description>Set the BIOS for Lenovo Models which support System Deployment Boot Mode SDB
+  <Description>Set the BIOS for Lenovo Models which support System Deployment Boot Mode SDBM
 </Description>
   <DatabaseSettings></DatabaseSettings>
   <ObjectModelSerialisation>
@@ -12,7 +12,7 @@
         <GenerallyReleased>0001-01-01T00:00:00</GenerallyReleased>
         <Icon i:nil="true" />
         <Id>eac0d90a-aa3a-46b9-a27e-266650aeb041</Id>
-        <Name>LenovoSetBIOSPassword 0.1</Name>
+        <Name>SetLenovoBIOSPassword 0.1</Name>
         <PackageAssignments />
         <ProductKey i:nil="true" />
         <Revision>0</Revision>
@@ -53,7 +53,7 @@
               <Id>0</Id>
               <LastUpdate>2024-06-12T21:20:58.1989464+02:00</LastUpdate>
               <LowerValue i:nil="true" />
-              <Name>LenovoSetBIOSPassword</Name>
+              <Name>SetLenovoBIOSPassword</Name>
               <Objecttype>39</Objecttype>
               <Parent i:nil="true" />
               <ParentId i:nil="true" />
@@ -80,9 +80,9 @@
         <CheckFile i:nil="true" />
         <CheckReg i:nil="true" />
         <CreationDate i:nil="true" />
-        <Description>Set the BIOS for Lenovo Models which support System Deployment Boot Mode SDB
+        <Description>Set the BIOS for Lenovo Models which support System Deployment Boot Mode SDBM
 </Description>
-        <Directory>%Packages%\raumdonut\OsPackages\LenovoSetBIOSPassword\0.1</Directory>
+        <Directory>%Packages%\raumdonut\OsPackages\SetLenovoBIOSPassword\0.1</Directory>
         <Discontinue i:nil="true" />
         <DiskFreeApplication>0</DiskFreeApplication>
         <DiskFreeSystem>0</DiskFreeSystem>
@@ -100,7 +100,7 @@
         <MachineKeyName i:nil="true" />
         <Method i:nil="true" />
         <MinBandwidth i:nil="true" />
-        <PackageName>raumdonut\OsPackages\LenovoSetBIOSPassword\0.1</PackageName>
+        <PackageName>raumdonut\OsPackages\SetLenovoBIOSPassword\0.1</PackageName>
         <ParentID i:nil="true" />
         <Path i:nil="true" />
         <ProcessorSpeed>0</ProcessorSpeed>
@@ -168,6 +168,15 @@
         <TokenId i:nil="true" />
         <TokenTtl>0</TokenTtl>
       </Software>
+      <Software />
+      <Software />
+      <Software />
+      <Software />
+      <Software />
+      <Software />
+      <Software />
+      <Software />
+      <Software />
       <Software />
       <Software />
       <Software />
