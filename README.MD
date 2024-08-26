@@ -14,6 +14,12 @@ We use the System Deployment Boot Mode introduced on the ThinkPad T490 (Comet La
 > [!CAUTION]  
 > This only works on Thinkpads with no Supervisorpassword set!
 
+## Features
+- checks if the device is from lenovo. If not it exits.
+- checks via an array if the model is not supported:  
+  "$notSupportedList" which is currently populated with t480s/t490s modelnames. Add more unsupported models in your environment
+- sets the BIOS password. The BIOS password is set via the package variable “LenovoBIOSPW”.
+
 ## Download and Usage
 1. Clone the repository.
 2. Extract the archive to %EmpirumServer%\Configurator$\PackageStore\PreOSPackages and import the package into your Software Depot (Matrix42 Management Console > Configuration > Depot).
