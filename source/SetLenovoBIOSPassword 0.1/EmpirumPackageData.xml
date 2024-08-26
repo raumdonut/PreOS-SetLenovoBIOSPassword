@@ -1,13 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<EmpirumPackage UUID="eac0d90a-aa3a-46b9-a27e-266650aeb041" Name="SetLenovoBIOSPassword 0.1" Type="OSPackage" Version="1.0">
+<EmpirumPackage UUID="eac0d90a-aa3a-46b9-a27e-266650aeb041" Name="SetLenovoBIOSPassword 0.1"
+  Type="OSPackage" Version="1.0">
   <VersionInformation Version="0.1" Revision="0" />
   <TargetPath />
   <Description>Set the BIOS for Lenovo Models which support System Deployment Boot Mode SDBM
-</Description>
+  </Description>
   <DatabaseSettings></DatabaseSettings>
   <ObjectModelSerialisation>
     <ObjectModel Name="Matrix42.Empirum.PLF.Data.CoreDataAccess.Model">
-      <Software xmlns:i="http://www.w3.org/2001/XMLSchema-instance" z:Id="i1" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" xmlns="http://schemas.datacontract.org/2004/07/Matrix42.Empirum.PLF.Data.CoreDataAccess.Model">
+      <Software xmlns:i="http://www.w3.org/2001/XMLSchema-instance" z:Id="i1"
+        xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/"
+        xmlns="http://schemas.datacontract.org/2004/07/Matrix42.Empirum.PLF.Data.CoreDataAccess.Model">
         <CatalogueID i:nil="true" />
         <GenerallyReleased>0001-01-01T00:00:00</GenerallyReleased>
         <Icon i:nil="true" />
@@ -30,7 +33,8 @@
                   <Collection>0</Collection>
                   <ComboType>12</ComboType>
                   <DefaultValue i:nil="true" />
-                  <Description>Add the BIOS Password you want to set. If you change it, we have to change the config files.</Description>
+                  <Description>Add the BIOS Password you want to set. If you change it, we have to
+                    change the config files.</Description>
                   <Id>0</Id>
                   <LastUpdate>2024-06-12T21:26:52.2128769+02:00</LastUpdate>
                   <LowerValue i:nil="true" />
@@ -81,7 +85,7 @@
         <CheckReg i:nil="true" />
         <CreationDate i:nil="true" />
         <Description>Set the BIOS for Lenovo Models which support System Deployment Boot Mode SDBM
-</Description>
+        </Description>
         <Directory>%Packages%\raumdonut\OsPackages\SetLenovoBIOSPassword\0.1</Directory>
         <Discontinue i:nil="true" />
         <DiskFreeApplication>0</DiskFreeApplication>
