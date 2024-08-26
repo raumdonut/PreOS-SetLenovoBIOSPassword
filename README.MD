@@ -24,4 +24,4 @@ We use the System Deployment Boot Mode introduced on the ThinkPad T490 (Comet La
 1. Clone the repository.
 2. Extract the archive to %EmpirumServer%\Configurator$\PackageStore\PreOSPackages and import the package into your Software Depot (Matrix42 Management Console > Configuration > Depot).
 3. Move the package within the depot register "Matrix42 PreOS Packages" before the "Windows Installation" package and activate it for deployment ("Ready to install").
-4. Then you can assign the package and set the package variable to configure a new BIOS Password.
+4. Then you can assign the package and set the package variable to configure a new BIOS Password
