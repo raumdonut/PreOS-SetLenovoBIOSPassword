@@ -1,5 +1,7 @@
 # Set a supervisor password on Lenovo Thinkpads
 
+[![Super-Linter](https://github.com/raumdonut/PreOS-SetLenovoBIOSPassword/actions/workflows/super-linter.yml/badge.svg)](https://github.com/marketplace/actions/super-linter)
+
 > [!CAUTION]  
 > This is currently a Proof of Concept (PoC) and needs testing. It works only for Matrix42 Empirum.
 
@@ -18,10 +20,9 @@ We use the System Deployment Boot Mode introduced on the ThinkPad T490 (Comet La
 
 ## Features
 
-- Checks if the device is from lenovo. If not it exits.
-- Checks via an array if the model is not supported:  
-  "$notSupportedList" which is currently populated with t480s/t490s modelnames. Add more unsupported models in your environment
-- Sets the BIOS password. The BIOS password is set via the package variable “LenovoBIOSPW”.
+- Checks if the device is from lenovo. If not it exits
+- Checks via an array if the model is not supported. You can add additional models. Currently only T480s/T490s are included
+- Sets the BIOS password. The BIOS password is set via the package variable “LenovoBIOSPW”
 
 ## Download and Usage
 
